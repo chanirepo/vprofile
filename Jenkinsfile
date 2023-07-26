@@ -1,8 +1,8 @@
-pipeline {
+pipeline{
   agent any
   tools {
     maven "maven"
-    stages{
+  stages{
 
   stage('CheckOutCode'){
     steps{
