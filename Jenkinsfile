@@ -10,5 +10,10 @@ pipeline{
    git 'https://github.com/chanirepo/vprofile.git' 
 	}
   }
+	  stage [build] {
+		  steps {
+			  sh "mvn clean package"
+		  }
+	  }
     }
   }
