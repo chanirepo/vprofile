@@ -2,6 +2,7 @@ pipeline{
   agent any
   tools {
     maven "maven"
+  }
   stages{
 
   stage('CheckOutCode'){
@@ -11,4 +12,3 @@ pipeline{
   }
     }
   }
-}
